@@ -7,8 +7,8 @@ In contrast with most LLM libraries, Knowledge-LLM is tightly integrated with mo
 All Pleias instruct models rely on special tokens to properly label the input and output data. This library will provide all the necessary intermediary steps to format existing data to the expected structure.
 
 As a starter, Knowledge-LLM provide code notebooks that can be run on Google Colab:
-* [Pleias-Pico-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Pico_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo for the Pico RAG model (350m) on ancient greek and roman literature (*SPQR LLM*)
-* [Pleias-Nano-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Nano_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo on  for the Nano RAG model (1.21 billion parameters) on ancient greek and roman literature.
+* [Pleias-Pico-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Pico_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo for the Pico RAG model (350m) on ancient greek and roman literature ([Use it on Colab](https://colab.research.google.com/drive/1G1LhjdzOTfk4YM5w1Rm_IRp1RoTqMdPy?usp=sharing))
+* [Pleias-Nano-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Nano_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo for the Nano RAG model (1.21 billion parameters) on ancient greek and roman literature ([Use it on Colab](https://colab.research.google.com/drive/1G1LhjdzOTfk4YM5w1Rm_IRp1RoTqMdPy?usp=sharing))
 
 ## Retrieval Augmented-Generation
 Pleias has released two models for retrieval-augmented generation:
