@@ -7,13 +7,13 @@ In contrast with most LLM libraries, Knowledge-LLM is tightly integrated with mo
 All Pleias instruct models rely on special tokens to properly label the input and output data. This library will provide all the necessary intermediary steps to format existing data to the expected structure.
 
 As a starter, Knowledge-LLM provide code notebooks that can be run on Google Colab:
-* [Pleias-Nano-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Nano_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo for the Nano RAG model (350m) on ancient greek and roman literature (*SPQR LLM*)
-* [Pleias-Pico-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Pico_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo on ancient greek and roman literature for the Pico RAG model (1.21 billion parameters).
+* [Pleias-Pico-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Pico_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo for the Pico RAG model (350m) on ancient greek and roman literature (*SPQR LLM*)
+* [Pleias-Nano-SPQR-Multilingual](https://github.com/Pleias/Knowledge-LLM/blob/main/notebook/Pleias_Nano_SPQR_LLM_multilingual.ipynb): a multilingual RAG demo on  for the Nano RAG model (1.21 billion parameters) on ancient greek and roman literature.
 
 ## Retrieval Augmented-Generation
 Pleias has released two models for retrieval-augmented generation:
-* [Pleias-Nano](https://huggingface.co/PleIAs/Pleias-Nano), a 350 million parameters model (smaller than GPT2-medium).
-* [Pleias-Pico](https://huggingface.co/PleIAs/Pleias-Pico), a 1.2 billion parameters model.
+* [Pleias-Pico](https://huggingface.co/PleIAs/Pleias-Pico), a 350 million parameters model (smaller than GPT2-medium).
+* [Pleias-Nano](https://huggingface.co/PleIAs/Pleias-Nano), a 1.2 billion parameters model.
 
 Both models are fully multilingual with fluency in the main European languages. They support advanced feature that are currently non-existent in small models of corresponding size:
 * Built-in references to document.
