@@ -1,4 +1,4 @@
-## Knowledge-LLM, 
+## Knowledge-LLM, a software-model library for knowledge management
 
 **Knowledge-LLM** is a Pleias in-development library to run knowledge management projects at scale on small language models. 
 
